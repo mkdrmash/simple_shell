@@ -78,7 +78,7 @@ int child_process(char **av, char **args, char **env, int status_main, int cnt)
 		free(args);
 		waitpid(pid, &status, WUNTRACED);
 	}
-	
+
 	return (1);
 }
 

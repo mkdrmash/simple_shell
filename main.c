@@ -20,7 +20,7 @@ int main(int ac __attribute__((unused)), char **av, char **env)
 		prompt();
 		/*read input and return string*/
 		line = read_input();
-		
+
 		/*separates string to get command and atgs*/
 		args = sparse_str(line, env);
 
